@@ -1,0 +1,639 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://tldp.org/LDP/lkmpg/2.6/html/lkmpg.html)
+>> /Border [ 0 0 0 ] /Rect [ 80.02362 381.5736 283.4336 393.5736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/Annots [ 6 0 R ] /Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 19 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 17 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Outlines 11 0 R /PageLabels 20 0 R /PageMode /UseNone /Pages 17 0 R /Type /Catalog
+>>
+endobj
+10 0 obj
+<<
+/Author () /CreationDate (D:20230914141649+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20230914141649+05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Project 2: Kernel Data Structure) /Trapped /False
+>>
+endobj
+11 0 obj
+<<
+/Count 5 /First 12 0 R /Last 16 0 R /Type /Outlines
+>>
+endobj
+12 0 obj
+<<
+/Dest [ 7 0 R /XYZ 57.02362 657.0236 0 ] /Next 13 0 R /Parent 11 0 R /Title (Introduction)
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 7 0 R /XYZ 57.02362 428.8236 0 ] /Next 14 0 R /Parent 11 0 R /Prev 12 0 R /Title (Recommended Background Reading)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 7 0 R /XYZ 57.02362 371.8236 0 ] /Next 15 0 R /Parent 11 0 R /Prev 13 0 R /Title (Part 1. Write a kernel module)
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 7 0 R /XYZ 57.02362 284.8236 0 ] /Next 16 0 R /Parent 11 0 R /Prev 14 0 R /Title (Part 2. Add kernel data structures)
+>>
+endobj
+16 0 obj
+<<
+/Dest [ 8 0 R /XYZ 57.02362 633.0236 0 ] /Parent 11 0 R /Prev 15 0 R /Title (Part 3. Test your module)
+>>
+endobj
+17 0 obj
+<<
+/Count 2 /Kids [ 7 0 R 8 0 R ] /Type /Pages
+>>
+endobj
+18 0 obj
+<<
+/Length 9961
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 741.0236 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 111.7542 0 Td (Project 2: Kernel Data Structure) Tj T* -111.7542 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 699.0236 cm
+Q
+q
+1 0 0 1 57.02362 699.0236 cm
+Q
+q
+1 0 0 1 57.02362 687.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (Handed out:) Tj /F1 10 Tf ( Tuesday, Sep 14, 2023) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 681.0236 cm
+Q
+q
+1 0 0 1 57.02362 669.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (Due:) Tj /F1 10 Tf ( Friday, Sep 22, 2023) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 669.0236 cm
+Q
+q
+1 0 0 1 57.02362 636.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 582.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .462018 Tw (The goal of this project is to develop your first kernel module, and to study the manipulation of the following) Tj T* 0 Tw .99389 Tw (frequently-used kernel data structures: a linked list, red-black tree, hash table, radix tree, and bitmap. The) Tj T* 0 Tw .322256 Tw (following concepts from the course will be put in practice in this project: \(1\) Kernel module development and) Tj T* 0 Tw (\(2\) Kernel data structures.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 564.0236 cm
+q
+.941176 .972549 1 rg
+n 267.35 0 48 12 re f*
+.941176 .972549 1 rg
+n 418.73 0 30 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Develop the kernel module in Linux v5.15. Use the provided ) Tj /F3 10 Tf (Makefile) Tj /F1 10 Tf ( and write your code in ) Tj /F3 10 Tf (kds.c) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 522.0236 cm
+q
+.941176 .972549 1 rg
+n 294.9195 24 48 12 re f*
+.941176 .972549 1 rg
+n 374.0039 24 30 12 re f*
+.941176 .972549 1 rg
+n 0 12 42 12 re f*
+.941176 .972549 1 rg
+n 294.5914 12 24 12 re f*
+.941176 .972549 1 rg
+n 318.5914 12 6.427397 12 re f*
+.941176 .972549 1 rg
+n 325.0188 12 60 12 re f*
+BT 1 0 0 1 0 26 Tm 1.647223 Tw 12 TL /F1 10 Tf 0 0 0 rg (Make a folder named with your SBU ID \(e.g., 112233445\), put ) Tj /F3 10 Tf (Makefile) Tj /F1 10 Tf ( ,your ) Tj /F3 10 Tf (kds.c) Tj /F1 10 Tf (, and screenshot) Tj T* 0 Tw .427397 Tw /F3 10 Tf (kds.png) Tj /F1 10 Tf ( files in the folder, create a single gzip-ed tarball named ) Tj /F3 10 Tf ([SBU) Tj ( ) Tj (ID].tar.gz) Tj /F1 10 Tf (, and turn the gzip-ed) Tj T* 0 Tw (tarball to Brightspace.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 440.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.941176 .972549 1 rg
+n -6 -6 480.0283 72 re B*
+Q
+q
+.941176 .972549 1 rg
+n 6 48 12 12 re f*
+.941176 .972549 1 rg
+n 36 48 6 12 re f*
+.941176 .972549 1 rg
+n 66 48 6 12 re f*
+.941176 .972549 1 rg
+n 72 48 54 12 re f*
+.941176 .972549 1 rg
+n 168 48 6 12 re f*
+.941176 .972549 1 rg
+n 174 48 54 12 re f*
+.941176 .972549 1 rg
+n 234 48 0 12 re f*
+.941176 .972549 1 rg
+n 0 36 54 12 re f*
+.941176 .972549 1 rg
+n 60 36 0 12 re f*
+.941176 .972549 1 rg
+n 0 24 54 12 re f*
+.941176 .972549 1 rg
+n 108 24 0 12 re f*
+.941176 .972549 1 rg
+n 0 12 54 12 re f*
+.941176 .972549 1 rg
+n 90 12 0 12 re f*
+.941176 .972549 1 rg
+n 0 0 54 12 re f*
+.941176 .972549 1 rg
+n 102 0 0 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf 0 0 0 rg ($) Tj .733333 .733333 .733333 rg (  ) Tj 0 0 0 rg (tar) Tj .733333 .733333 .733333 rg ( ) Tj 0 0 0 rg (czvf) Tj .733333 .733333 .733333 rg ( ) Tj .4 .4 .4 rg (112233445) Tj 0 0 0 rg (.tar.gz) Tj .733333 .733333 .733333 rg ( ) Tj .4 .4 .4 rg (112233445) Tj 0 0 0 rg (/) Tj .733333 .733333 .733333 rg  T* .4 .4 .4 rg (112233445) Tj 0 0 0 rg (/) Tj .733333 .733333 .733333 rg  T* .4 .4 .4 rg (112233445) Tj 0 0 0 rg (/Makefile) Tj .733333 .733333 .733333 rg  T* .4 .4 .4 rg (112233445) Tj 0 0 0 rg (/kds.c) Tj .733333 .733333 .733333 rg  T* .4 .4 .4 rg (112233445) Tj 0 0 0 rg (/kds.png) Tj .733333 .733333 .733333 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 407.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Recommended Background Reading) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 395.8236 cm
+Q
+q
+1 0 0 1 57.02362 395.8236 cm
+Q
+q
+1 0 0 1 57.02362 383.8236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 .4 .6 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The Linux Kernel Module Programming Guide) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 383.8236 cm
+Q
+q
+1 0 0 1 57.02362 350.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Part 1. Write a kernel module) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 296.8236 cm
+q
+.941176 .972549 1 rg
+n 236.2844 36 18 12 re f*
+.941176 .972549 1 rg
+n 268.5054 36 30 12 re f*
+.941176 .972549 1 rg
+n 0 24 42 12 re f*
+.941176 .972549 1 rg
+n 393.0556 24 36 12 re f*
+.941176 .972549 1 rg
+n 429.0556 24 10.17274 12 re f*
+.941176 .972549 1 rg
+n 439.2283 24 6 12 re f*
+.941176 .972549 1 rg
+n 445.2283 24 31.82726 12 re f*
+.941176 .972549 1 rg
+n 0 12 24 12 re f*
+.941176 .972549 1 rg
+n 24 12 6 12 re f*
+.941176 .972549 1 rg
+n 30 12 7.52295 12 re f*
+.941176 .972549 1 rg
+n 37.52295 12 72 12 re f*
+.941176 .972549 1 rg
+n 109.5229 12 7.52295 12 re f*
+.941176 .972549 1 rg
+n 117.0459 12 12 12 re f*
+.941176 .972549 1 rg
+n 129.0459 12 7.52295 12 re f*
+.941176 .972549 1 rg
+n 136.5688 12 12 12 re f*
+.941176 .972549 1 rg
+n 148.5688 12 7.52295 12 re f*
+.941176 .972549 1 rg
+n 156.0918 12 12 12 re f*
+.941176 .972549 1 rg
+n 168.0918 12 7.52295 12 re f*
+.941176 .972549 1 rg
+n 175.6147 12 18 12 re f*
+.941176 .972549 1 rg
+n 418.2454 12 42 12 re f*
+.941176 .972549 1 rg
+n 225.12 0 12 12 re f*
+BT 1 0 0 1 0 38 Tm .440491 Tw 12 TL /F1 10 Tf 0 0 0 rg ([4 points] Write a single Linux kernel module named ) Tj /F3 10 Tf (kds) Tj /F1 10 Tf ( in ) Tj /F3 10 Tf (kds.c) Tj /F1 10 Tf (. The module takes one string parameter) Tj T* 0 Tw 4.172739 Tw /F3 10 Tf (int_str) Tj /F1 10 Tf (, which is the arbitrary number of integers between 0 to 1000 \(e.g., ) Tj /F3 10 Tf (insmod) Tj ( ) Tj (<) Tj (module) Tj T* 0 Tw 1.52295 Tw (name) Tj (>) Tj ( ) Tj (int_str='"11) Tj ( ) Tj (44) Tj ( ) Tj (22) Tj ( ) Tj (33) Tj ( ) Tj (5"') Tj /F1 10 Tf (\). The module parses \(tokenizes\) the parameter ) Tj /F3 10 Tf (int_str) Tj /F1 10 Tf ( and) Tj T* 0 Tw (print on the kernel log the input numbers using the ) Tj /F3 10 Tf (%d) Tj /F1 10 Tf ( format specifier.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 263.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Part 2. Add kernel data structures) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 245.8236 cm
+q
+.941176 .972549 1 rg
+n 89.49 0 30 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Extend the module \() Tj /F3 10 Tf (kds.c) Tj /F1 10 Tf (\) to include functions manipulating the following data structures:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 239.8236 cm
+Q
+q
+1 0 0 1 57.02362 239.8236 cm
+Q
+q
+1 0 0 1 57.02362 215.8236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+.941176 .972549 1 rg
+n 316.493 12 42 12 re f*
+BT 1 0 0 1 0 14 Tm .493071 Tw 12 TL /F1 10 Tf 0 0 0 rg ([7 points] Linked lists : 1\) create a linked list containing the integers in ) Tj /F3 10 Tf (int_str) Tj /F1 10 Tf (; 2\) print on the kernel) Tj T* 0 Tw (log the content of the list using the list iteration functions; and 3\) destruct the list and free its content.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 209.8236 cm
+Q
+q
+1 0 0 1 57.02362 173.8236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+.941176 .972549 1 rg
+n 53.09537 12 42 12 re f*
+BT 1 0 0 1 0 26 Tm 1.028726 Tw 12 TL /F1 10 Tf 0 0 0 rg ([7 points] Red-black trees : 1\) create a rbtree, which is indexed by integer numbers; 2\) insert integer) Tj T* 0 Tw .427686 Tw (numbers in ) Tj /F3 10 Tf (int_str) Tj /F1 10 Tf ( to the rbtree; 3\) look up the inserted numbers and print them out; and 4\) remove) Tj T* 0 Tw (all inserted numbers in the rbtree.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 167.8236 cm
+Q
+q
+1 0 0 1 57.02362 107.8236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+.941176 .972549 1 rg
+n 52.90759 36 42 12 re f*
+.941176 .972549 1 rg
+n 76.91821 24 78 12 re f*
+.941176 .972549 1 rg
+n 0 12 132 12 re f*
+BT 1 0 0 1 0 50 Tm .443417 Tw 12 TL /F1 10 Tf 0 0 0 rg ([7 points] Hash table : 1\) create a hash table, of which the number of buckets is 2^10; 2\) insert integer) Tj T* 0 Tw .333797 Tw (numbers in ) Tj /F3 10 Tf (int_str) Tj /F1 10 Tf ( to the hash table; 3\) iterate the entire hash table and print out all inserted integer) Tj T* 0 Tw 4.279104 Tw (numbers using ) Tj /F3 10 Tf (hash_for_each) Tj /F1 10 Tf (; 4\) look up the inserted numbers and print them out using) Tj T* 0 Tw 1.365257 Tw /F3 10 Tf (hash_for_each_possible) Tj /F1 10 Tf (; 5\) remove all inserted numbers in the hash table; and 6\) destruct the) Tj T* 0 Tw (hash table.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 101.8236 cm
+Q
+q
+1 0 0 1 57.02362 62.69291 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 24.13071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 12.13071 cm
+q
+.941176 .972549 1 rg
+n 54.16193 0 42 12 re f*
+BT 1 0 0 1 0 14 Tm 1.465464 Tw 12 TL /F1 10 Tf 0 0 0 rg ([7 points] Radix tree : 1\) create a radix tree, which is indexed by integer numbers; 2\) insert integer) Tj T* 0 Tw .960966 Tw (numbers in ) Tj /F3 10 Tf (int_str) Tj /F1 10 Tf ( to the radix tree; 3\) look up the inserted numbers and print them out; 4\) tag all) Tj T* 0 Tw ET
+Q
+Q
+q
+Q
+Q
+Q
+ 
+endstream
+endobj
+19 0 obj
+<<
+/Length 2531
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 741.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 11 Tm  T* ET
+q
+1 0 0 1 23 -3 cm
+q
+.941176 .972549 1 rg
+n 0 0 156 12 re f*
+BT 1 0 0 1 0 14 Tm 11.51833 Tw 12 TL /F1 10 Tf 0 0 0 rg (odd numbers in the radix tree; 5\) look up all tagged odd number using) Tj T* 0 Tw /F3 10 Tf (radix_tree_gang_lookup_tag) Tj /F1 10 Tf (; and 6\) remove all inserted numbers in the radix tree.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 735.0236 cm
+Q
+q
+1 0 0 1 57.02362 687.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+.941176 .972549 1 rg
+n 0 24 42 12 re f*
+.941176 .972549 1 rg
+n 259.9921 12 108 12 re f*
+BT 1 0 0 1 0 38 Tm .169353 Tw 12 TL /F1 10 Tf 0 0 0 rg ([7 points] XArray : 1\) create a xarray, which is indexed by integer numbers; 2\) insert integer numbers in) Tj T* 0 Tw .522018 Tw /F3 10 Tf (int_str) Tj /F1 10 Tf ( to the XArray; 3\) look up the inserted numbers and print them out; 4\) tag all odd numbers in) Tj T* 0 Tw 1.856556 Tw (the radix tree; 5\) look up all tagged odd number using ) Tj /F3 10 Tf (xa_for_each_marked) Tj /F1 10 Tf (; and 6\) remove all) Tj T* 0 Tw (inserted numbers in the Xarray.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 681.0236 cm
+Q
+q
+1 0 0 1 57.02362 645.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+.941176 .972549 1 rg
+n 215.6193 12 42 12 re f*
+BT 1 0 0 1 0 26 Tm .382686 Tw 12 TL /F1 10 Tf 0 0 0 rg ([7 points] Bitmap : 1\) create a bitmap, which is large enough to represent numbers between 0 to 1000;) Tj T* 0 Tw .829908 Tw (2\) set bits corresponding to integer numbers in ) Tj /F3 10 Tf (int_str) Tj /F1 10 Tf (; 3\) print all bits which are turned on; and 4\)) Tj T* 0 Tw (clear all bits in the bitmap.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 645.0236 cm
+Q
+q
+1 0 0 1 57.02362 612.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Part 3. Test your module) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 582.0236 cm
+q
+.941176 .972549 1 rg
+n 294.1095 12 30 12 re f*
+.941176 .972549 1 rg
+n 101.72 0 42 12 re f*
+BT 1 0 0 1 0 14 Tm .158138 Tw 12 TL /F1 10 Tf 0 0 0 rg ([4 points] Take a screenshot of your kernel debug message using ) Tj /F3 10 Tf (dmesg) Tj /F1 10 Tf ( while running your module. Turn in) Tj T* 0 Tw (the screenshot named ) Tj /F3 10 Tf (kds.png) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+20 0 obj
+<<
+/Nums [ 0 21 0 R 1 22 0 R ]
+>>
+endobj
+21 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+22 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000000073 00000 n 
+0000000134 00000 n 
+0000000241 00000 n 
+0000000350 00000 n 
+0000000455 00000 n 
+0000000567 00000 n 
+0000000765 00000 n 
+0000000988 00000 n 
+0000001193 00000 n 
+0000001298 00000 n 
+0000001588 00000 n 
+0000001662 00000 n 
+0000001775 00000 n 
+0000001919 00000 n 
+0000002062 00000 n 
+0000002210 00000 n 
+0000002335 00000 n 
+0000002401 00000 n 
+0000012414 00000 n 
+0000014997 00000 n 
+0000015047 00000 n 
+0000015081 00000 n 
+trailer
+<<
+/ID 
+[<cafc934117d54a6e0adc4ba5a224a27e><cafc934117d54a6e0adc4ba5a224a27e>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 10 0 R
+/Root 9 0 R
+/Size 23
+>>
+startxref
+15115
+%%EOF
